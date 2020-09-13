@@ -1,0 +1,34 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+/* GENERAL STYLING */
+html {
+  font-size: 10px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
